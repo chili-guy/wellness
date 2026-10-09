@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
+import heroNutritionistPortrait from '../assets/images/hero_nutritionist_portrait_1791529449252.jpg';
 
 interface HeroSectionProps {
   onOpenBooking: () => void;
@@ -79,7 +80,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking, onOpenQ
               {/* The big circular photo cutout */}
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-white shadow-md relative bg-[#edeae1]">
                 <img
-                  src="/src/assets/images/hero_nutritionist_portrait_1791529449252.jpg"
+                  src={heroNutritionistPortrait}
                   alt="Dra. Camila Duarte - Nutricionista Clínica Integrativa"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-top hover:scale-102 transition-transform duration-500"

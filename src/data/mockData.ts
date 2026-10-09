@@ -1,4 +1,9 @@
 import { ServiceItem, TestimonialItem, InstagramPost, BlogPost } from '../types';
+import antiInflammatoryNutrition from '../assets/images/anti_inflammatory_nutrition_1791529491386.jpg';
+import consultationDeskPlanning from '../assets/images/consultation_desk_planning_1791529471037.jpg';
+import heroNutritionistPortrait from '../assets/images/hero_nutritionist_portrait_1791529449252.jpg';
+import holisticOutdoorWellness from '../assets/images/holistic_outdoor_wellness_1791529459323.jpg';
+import mindfulHealthyLifestyle from '../assets/images/mindful_healthy_lifestyle_1791529481624.jpg';
 
 export const SERVICES: ServiceItem[] = [
   {
@@ -98,7 +103,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
     category: 'Nutrição Terapêutica',
     likes: 428,
     comments: 34,
-    imageUrl: '/src/assets/images/anti_inflammatory_nutrition_1791529491386.jpg',
+    imageUrl: antiInflammatoryNutrition,
     summary: 'Os 5 alimentos que nunca faltam na minha despensa: cúrcuma com pimenta preta, azeite extravirgem prensado a frio, gengibre fresco, frutas vermelhas e própolis verde.',
   },
   {
@@ -107,7 +112,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
     category: 'Rotina Prática',
     likes: 612,
     comments: 52,
-    imageUrl: '/src/assets/images/consultation_desk_planning_1791529471037.jpg',
+    imageUrl: consultationDeskPlanning,
     summary: 'Dicas práticas de batch cooking e preparo antecipado para mulheres que não têm tempo a perder mas se recusam a depender de ultraprocessados.',
   },
   {
@@ -116,7 +121,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
     category: 'Propósito Clínico',
     likes: 890,
     comments: 98,
-    imageUrl: '/src/assets/images/hero_nutritionist_portrait_1791529449252.jpg',
+    imageUrl: heroNutritionistPortrait,
     summary: 'Celebrando 9 anos de prática clínica integrativa guiando mulheres a florescerem de dentro para fora.',
   },
   {
@@ -125,7 +130,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
     category: 'Ciência Descomplicada',
     likes: 543,
     comments: 41,
-    imageUrl: '/src/assets/images/holistic_outdoor_wellness_1791529459323.jpg',
+    imageUrl: holisticOutdoorWellness,
     summary: 'Mais de 90% da serotonina é produzida no seu trato digestivo. Entenda por que tratar ansiedade começa cuidando do que você coloca no prato.',
   },
   {
@@ -134,7 +139,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
     category: 'Fitoterapia & Sono',
     likes: 731,
     comments: 63,
-    imageUrl: '/src/assets/images/mindful_healthy_lifestyle_1791529481624.jpg',
+    imageUrl: mindfulHealthyLifestyle,
     summary: 'O blend de camomila alemã, mulungu e erva-cidreira que uso para acalmar o sistema nervoso autônomo e induzir sono reparador profundo.',
   },
 ];

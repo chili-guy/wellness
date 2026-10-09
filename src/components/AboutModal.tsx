@@ -1,5 +1,6 @@
 import React from 'react';
 import { X, Award, Heart, Sparkles, BookOpen } from 'lucide-react';
+import heroNutritionistPortrait from '../assets/images/hero_nutritionist_portrait_1791529449252.jpg';
 
 interface AboutModalProps {
   isOpen: boolean;
@@ -44,7 +45,7 @@ export const AboutModal: React.FC<AboutModalProps> = ({
           <div className="flex flex-col sm:flex-row items-center gap-6 pb-4 border-b border-[#ebe5d9]">
             <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-[#cde4d3] shrink-0 bg-[#ebe6db]">
               <img
-                src="/src/assets/images/hero_nutritionist_portrait_1791529449252.jpg"
+                src={heroNutritionistPortrait}
                 alt="Dra. Camila Duarte"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { Check, Mail } from 'lucide-react';
+import holisticOutdoorWellness from '../assets/images/holistic_outdoor_wellness_1791529459323.jpg';
+import consultationDeskPlanning from '../assets/images/consultation_desk_planning_1791529471037.jpg';
+import mindfulHealthyLifestyle from '../assets/images/mindful_healthy_lifestyle_1791529481624.jpg';
 
 interface AlternatingSectionsProps {
   onOpenApproach: () => void;
@@ -38,7 +41,7 @@ export const AlternatingSections: React.FC<AlternatingSectionsProps> = ({
                 />
                 <div className="w-full h-full rounded-full overflow-hidden border-4 border-[#faf8f5] shadow-sm bg-[#ded8cb]">
                   <img
-                    src="/src/assets/images/holistic_outdoor_wellness_1791529459323.jpg"
+                    src={holisticOutdoorWellness}
                     alt="Nutrição integrativa para a família e equilíbrio natural"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover hover:scale-103 transition-transform duration-500"
@@ -108,7 +111,7 @@ export const AlternatingSections: React.FC<AlternatingSectionsProps> = ({
                 />
                 <div className="w-full h-full rounded-full overflow-hidden border-4 border-white shadow-sm bg-[#e8e2d4]">
                   <img
-                    src="/src/assets/images/consultation_desk_planning_1791529471037.jpg"
+                    src={consultationDeskPlanning}
                     alt="Planejamento nutricional individualizado e fitoterapia"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover hover:scale-103 transition-transform duration-500"
@@ -137,7 +140,7 @@ export const AlternatingSections: React.FC<AlternatingSectionsProps> = ({
                 />
                 <div className="w-full h-full rounded-full overflow-hidden border-4 border-[#faf8f5] shadow-sm bg-[#ded8cb]">
                   <img
-                    src="/src/assets/images/mindful_healthy_lifestyle_1791529481624.jpg"
+                    src={mindfulHealthyLifestyle}
                     alt="Estilo de vida consciente e autocuidado diário"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover hover:scale-103 transition-transform duration-500"
