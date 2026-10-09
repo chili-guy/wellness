@@ -1,0 +1,6 @@
+{
+  "name": "Dra. Camila Duarte | Nutrição Integrativa & Bem-Estar",
+  "description": "Nutrição clínica funcional e integrativa para tratar a causa raiz, restabelecer sua energia, saúde intestinal e equilíbrio hormonal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-script: "Alex Brush", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+.font-serif-display {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.font-script-signature {
+  font-family: "Alex Brush", cursive;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f1ea;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd8cf;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a9beaf;
+}
